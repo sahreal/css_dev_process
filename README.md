@@ -1,4 +1,6 @@
-# css_dev_process
+# CSS Dev Process
+
+Everything I said during the demo can be found in manifesto.md.
 
 Treat index.css as a living example of many of the principles detailed in manifesto.md. If you want a raw template of that file when you create your own projects, you can copy and paste the code in template.css.
 
