@@ -1,0 +1,43 @@
+/* GENERAL */
+
+/* SPECIFIC SECTION */
+
+/* ANOTHER SPECIFIC SECTION */
+
+
+/* RULES FOR MOBILE */
+@media (max-width: 600px) {
+  /* GENERAL */
+
+  /* SPECIFIC SECTION */
+  
+  /* ANOTHER SPECIFIC SECTION */
+  
+}
+
+/* RULES FOR TABLET */
+@media (min-width: 601px) and (max-width: 800px) {
+  /* GENERAL */
+
+  /* SPECIFIC SECTION */
+
+  /* ANOTHER SPECIFIC SECTION */
+}
+
+/* RULES FOR SMALL-MEDIUM DESKTOP */
+@media (min-width: 801px) and (max-width: 1200px) {
+  /* GENERAL */
+
+  /* SPECIFIC SECTION */
+
+  /* ANOTHER SPECIFIC SECTION */
+}
+
+/* RULES FOR BIG DESKTOP */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  /* GENERAL */
+
+  /* SPECIFIC SECTION */
+
+  /* ANOTHER SPECIFIC SECTION */
+}

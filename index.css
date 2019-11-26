@@ -1,0 +1,107 @@
+/* GENERAL */
+html,body,p {
+  margin: 0;
+}
+
+html {
+  font-size:16px;
+}
+  
+p, h1, h2, h3, h4, h5, h6, div, button, form, input {
+  font-family: sans-serif;
+  font-size:1rem;
+}
+
+:root {
+  --main-background-color: white;
+  --secondary-background-color: grey;
+  --accent-color: red;
+  --text-color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin:auto;
+}
+
+.section {
+  border:1px solid var(--accent-color);
+  border-radius:10px;
+}
+
+/* FIRST SECTION */
+.section-one .title {
+  text-decoration:underline;
+}
+
+/* ANOTHER SECTION */
+.section-two .title:hover {
+  text-decoration:underline;
+}
+
+/* RULES FOR MOBILE */
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  p, h1, h2, h3, h4, h5, h6, div, button, form, input {
+    font-size:0.8rem;
+  }
+  .content {
+    max-width:90vw;
+  }
+}
+
+/* RULES FOR TABLET */
+@media (min-width: 601px) and (max-width: 800px) {
+  .content {
+    max-width:85vw;
+  }
+}
+
+/* RULES FOR SMALL-MEDIUM DESKTOP */
+@media (min-width: 801px) and (max-width: 1200px) {
+  p, h1, h2, h3, h4, h5, h6, div, button, form, input {
+    font-size:1.4rem;
+  }
+  .content {
+    max-width:75vw;
+  }
+
+}
+
+/* RULES FOR BIG DESKTOP */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  p, h1, h2, h3, h4, h5, h6, div, button, form, input {
+    font-size:1.6rem;
+  }
+  .content {
+    max-width:900px;
+  }
+}
+
+/* CODE ADDED DURING DEMO */
+/* body {
+  height:100vh;
+}
+.content {
+  height:90%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:100%;
+}
+.section {
+  height:45%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+} */
